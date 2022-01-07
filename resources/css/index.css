@@ -1,0 +1,143 @@
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color:whitesmoke; 
+}
+
+h1 {
+    color:orange;
+    background-color:seagreen;
+    text-align: center;
+}
+
+h2 {
+    color: orange;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 19px;
+    text-align: left;
+}
+
+h4 {
+    text-align: left;
+}
+
+.styleguide {
+    width: 100%;
+}
+
+.definition {
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+}
+
+.highlight {
+    background-color:khaki;
+    color: gray;
+}
+/* color section */
+.colors {
+    display: inline-block;
+    width: 100px;
+    margin: 0 40px;
+    
+}
+
+.colors p {
+    z-index: 6;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: helvetica;
+}
+
+.colorblock {
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    z-index: 5;
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+}
+
+.colorsbackground{
+    background-color: white;
+}
+
+
+#khakiblock {
+    background-color: khaki;
+}
+
+#seagreenblock {
+    background-color: seagreen;
+}
+
+#orangeblock {
+    background-color: orange;
+}
+
+#whitesmokeblock {
+    background-color: whitesmoke;
+}
+
+/* font */
+
+.fontname {
+    text-decoration: underline;
+}
+
+.helvetica {
+    font-family: helvetica;
+}
+
+.merriweather {
+    font-family: merriweather;
+}
+
+.fonttype {
+    display: inline-block;
+}
+
+/* text styles */
+
+.mainheading h1 {
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.subheading h2 {
+    font-family: Helvetica;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.paragraph {
+    font-family: Merriweather;
+    font-size: 13;
+    font-weight: 500;
+}
+
+
+
+.style {
+    display: inline;
+}
+
+.styles, 
+.styles h1,
+.styles h2{
+    color: black;
+    background-color: whitesmoke;
+    text-align: left;
+}
+

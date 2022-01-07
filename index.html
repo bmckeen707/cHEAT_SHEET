@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>courtney is a mothafuckin babe</title>
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>HTML & CSS</h1>
+    </header>
+    <main>
+        <div class="html">
+            <h2>HTML</h2>
+            <p class="definition">Hyper Text Markup Language</p>
+            <p>
+                <code>            
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html lang="en"&gt;<br>
+                &lt;head&gt;<br>
+                    &nbsp&nbsp&nbsp&nbsp&lt;meta charset="UTF-8"&gt;<br>
+                    &nbsp&nbsp&nbsp&nbsp&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;<br>
+                    &nbsp&nbsp&nbsp&nbsp&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br>
+                    &nbsp&nbsp&nbsp&nbsp&lt;title&gt;<span class="highlight">text that appears in browser tab</span>&lt;/title&gt;<br>
+                    &nbsp&nbsp&nbsp&nbsp&lt;link href="<span class="highlight">link to css file</span>" type="text/css" rel="stylesheet"&gt;<br>
+                &lt;/head&gt;<br>
+                &lt;body&gt;<br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;
+                </code>
+            </p>
+            <h3>Adding HTML to HTML</h3>
+            <h4>Opening and Closing Tags</h4>
+            <p>& l t ;  =  &lt;</p>
+            <p>& g t ;  =  &lt;</p>
+            <p>& l t ;  h1  & g t ;  & l t ; /h1 & l t ;</p>
+            <p>&lt;h1&gt; &lt;/h1&gt;</p>
+            <p>can also add an extra space between <  > and tag name<br>not sure if this method functions well yet</p>
+            <h4>Adding spaces</h4>
+            <p>& n b s p</p>
+            <p>& # 1 6 0</p>
+            <h3>Accessability</h3>
+            <h4>role="presentation"</h4>
+            <p>add to unimportant styling tags that shouldn't be read by screen readers such as &lt;ol role="presentation"&gt;</p>
+            <h4>aria-label="description of image"</h4>
+            <h4>alt=""</h4>
+            <p>img and a elements should have a description of image or of targeted link</p>
+            <p>if image has a description: add empty alt="" and give description tag aria-label="description"</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="4">Tags</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Heading</th>
+                        <td>
+                        < h1 >< /h1 >&lt;/h1&gt;<br>
+                        &lt;h2&gt;&lt;/h2&gt;<br>
+                        &lt;h3&gt;&lt;/h3&gt;<br>
+                        &lt;h4&gt;&lt;/h4&gt;<br>
+                        &lt;h5&gt;&lt;/h5&gt;<br>
+                        &lt;h6&gt;&lt;/h6&gt;
+                        </td>
+                        
+                        <th>Bold</th>
+                        <td>&lt;strong&gt;&lt;/strong&gt;</td>
+                    </tr>
+                    <tr>
+                        <th>Paragraph</th>
+                        <td>&lt;p&gt;&lt;/p&gt;</td>
+                        <th>Italics</th>
+                        <td>&lt;em&gt;&lt;/em&gt;</td>
+                    </tr>
+                </tbody>
+            </table>
+                <thead>
+                    <tr>
+                        <th>Tags: Inline</th>
+                    </tr>
+                    
+                </thead>
+                <tbody>
+
+                </tbody>
+            <table>
+
+            </table>
+        </div>
+        <div class="css">
+            <h2>CSS</h2>
+            <p class="definition">Cascading Style Sheet</p>
+            <div class="styleguide">
+                <h3>Style Guide</h3>
+                <div class="colorsection">
+                    <h4>Color</h4>
+                    <div class="colorsbackground">
+                        <div class="colors">
+                            <p>khaki</p>
+                            <div class="colorblock" id="khakiblock"></div>
+                        </div>
+                        <div class="colors">
+                            <p>seagreen</p>
+                            <div class="colorblock" id="seagreenblock"></div>
+                        </div>
+                        <div class="colors">
+                            <p>orange</p>
+                            <div class="colorblock" id="orangeblock"></div>
+                        </div>
+                        <div class="colors">
+                            <p>whitesmoke</p>
+                            <div class="colorblock" id="whitesmokeblock"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fontsection">
+                    <h4>Font</h4>
+                        <div class="fonttype" class="helvetica";>
+                            <h5 class="fontname">Helvetica</h5>
+                            <ul>
+                                <li><strong>Bold</strong></li>
+                                <li>Normal</li>
+                                <li><em>Italic</em></li>
+                            </ul>
+                        </div>
+                        <div class="fonttype" class="Merriweather">
+                            <h5 class="fontname">Merriweather</h5>
+                            <ul>
+                                <li><strong>Bold</strong></li>
+                                <li>Normal</li>
+                                <li><em>Italic</em></li>
+                            </ul>
+                        </div>
+                </div>
+                <div class="styles">
+                    <h4>Text Styles</h4>
+                    
+                    <div>
+                        <h2>Subheading</h2>
+                        
+                    </div>
+                    <div id="paragraph" class="style">
+                        <p>Paragraph</p>
+                        <p>p {</p>                         
+                        <ul>
+                            <li>Font-family: Merriweather</li>
+                            <li>Font-weight: 500</li>
+                            <li>Font-size: 13px</li>
+                        </ul>
+                        <p>}</p>
+
+                    </div>
+                        <table>
+                            <tr>
+                                <th id="mainheading" class="style">Main Heading</th>
+                                <th id="subheading" class="style">Subheading</th>
+                                <th>Paragraph</th>
+                            </tr>
+                            <tr>
+                                <td id="mainheading" class="style">
+                                    <h1>h1 {</h1>
+                                    <ul>
+                                        <li>Font-Family: Helvetica</li>
+                                        <li>Font-weight: 600</li>
+                                        <li>Font-size: 23px</li>
+                                    </ul>
+                                    <h1>}</h1></td>
+                                <td id="subheading" class="style">
+                                    <h2>h2 {</h2>
+                                    <ul>
+                                        <li>Font-Family: Helvetica</li>
+                                        <li>Font-weight: 500</li>
+                                        <li>Font-size: 17px</li>
+                                    </ul>
+                                    <h2>}</h2>
+                                </td>
+                            </tr>
+                        </table>
+
+
+
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./index.js">
+    </script>
+</body>
+</html>
